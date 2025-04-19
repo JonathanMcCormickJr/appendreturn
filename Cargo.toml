@@ -2,5 +2,12 @@
 name = "appendreturn"
 version = "0.1.0"
 edition = "2024"
+authors = ["Jonathan A. McCormick, Jr."]
+license = "Unlicense"
+homepage = "https://github.com/JonathanMcCormickJr/appendreturn"
+repository = "https://github.com/JonathanMcCormickJr/appendreturn"
+documentation = "https://github.com/JonathanMcCormickJr/appendreturn"
+description = "Rust's `.push_str()` method for `String` does not return the resulting value. This crate fixes that by providing a new trait method for String. Just import this crate, then call `.append_and_return()` on a String"
 
 [dependencies]
+# NONE
